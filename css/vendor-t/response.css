@@ -1,0 +1,143 @@
+@media(max-width: 1366px){
+	.content_right {
+		top: 16%;
+	}
+}
+@media(max-width: 1200px){
+	.content_right {
+		display: none;
+	}
+	.content_left {
+		bottom: 10%;
+	}
+	.content_left h2 {
+		font-size: 3.2rem;
+	}
+	.content_left ul li {
+		margin-bottom: 10px;
+	}
+	
+}
+@media(max-width: 992px){
+	.group_input_v2 {
+		width: 100%;
+		margin: 0px !important;
+	}
+	.content_left {
+		display: none;
+	}
+	.banner_in .content_text{
+		display: none;
+	}
+	.achievements_t .item_achievements {
+		width: 50%;
+	}
+	.achievements_t .item_achievements:nth-child(1),
+	.achievements_t .item_achievements:nth-child(2),
+	.achievements_t .item_achievements:nth-child(3) {
+		width: 33.33%;
+	}
+	.achievements_t .item_achievements {
+		width: 50%;
+	}
+	.achievements_t .item_achievements .item{
+		height: auto;
+	}
+	.achievements_t .all_item {
+		flex-wrap: wrap;
+	}
+}
+@media(max-width: 767px){
+	.page_info .info .item_step{
+		margin-bottom: 50px;
+	}
+	.item_news .img{
+		margin-bottom: 10px;
+	}
+	.item_news .content_text h3 a {
+    	font-size: 1.8rem;
+	}
+	.intro_in {
+		margin: 30px 0px;
+	}
+	.title_in {
+		margin-bottom: 20px;
+	}
+	.title_in h2 {
+		font-size: 2.8rem;
+		
+	}
+	.intro_in .title_intro h2 {
+		font-size: 2.8rem;
+		margin-bottom: 20px;
+	}
+	.title_t h2 {
+		margin-bottom: 20px !important;
+	}
+	.title_intro{
+		margin-bottom: 20px;
+	}
+	.intro_in .title_intro .text {
+		padding-left: 20px;
+	}
+	.intro_in .title_intro .text:after {
+		width: 4px;
+	}
+	.popup_t .content .main_content h2 {
+		max-width: 100%;
+		padding: 0px 10px;
+	}
+
+	.popup_t .content .main_content h2 {
+		text-align: center;
+		font-size: 1.2rem;
+		color: #FFFFFF;
+	}
+	.popup_t .content .main_content img {
+		top: 15px;
+	}
+	.popup_t .content .main_content .mov a {
+		padding: 8px 30px;
+		font-size: 1rem;
+	}
+	.header_t p {
+
+		margin-bottom: 10px;
+	}
+	.story_t p {
+		padding: 0px 10px;
+	}
+	.achievements_t .item_achievements {
+		width: 50% !important;
+		margin: 0 auto;
+	}	
+	.mission_all .item_mission {
+		margin-bottom: 50px;
+		margin-top: 20px;
+	}
+	.mission_t {
+		margin-bottom: 0px;
+	}
+	.why_chose .col-xs-12{
+		margin-bottom: 20px;
+	}
+	.item_why.yellow{
+		padding-bottom: 50px;
+		float: left;
+		width: 100%;
+	}
+	.header_t p.des {
+		font-size: 1.8rem;
+	}
+	.contact_t .content .content_text ul li {
+		flex-wrap: wrap;
+	}
+	.contact_t .content .content_text ul li div {
+		width: 100%;
+	}
+}
+@media(max-width: 400px){
+	.achievements_t .item_achievements {
+		width: 100% !important;
+	}	
+}
