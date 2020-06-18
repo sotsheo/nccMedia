@@ -7,10 +7,7 @@
 	top: 0;
 	display: flex;
 	align-items: center;
-	z-index: -1;
-	opacity: 0;
-	visibility: hidden;
-	transition: all .5s;
+	z-index: 9999;
 }
 .popup_t .content{
 	width: 770px;
@@ -77,111 +74,12 @@
 	letter-spacing: 0px;
 	color: #FFFFFF;
 }
-.popup_t.active {
-	opacity: 1;
-	visibility: visible;
-	z-index: 9999;
-}
 .popup_t.active .content{
 	animation-name: scale_r;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
-
-}
-.text_center{
-	width: 500px;
-	height: calc(100% - 20%);
-	max-width: 70%;
-	background: #fff;
-	margin: 0 auto;
-	border-radius: 10%;
-}
-.npd{
-	padding: 0px !important;
-}
-.popup_t .img_z_right {
-	position: absolute;
-	right: 10%;
-	bottom: 20%;
-	z-index: 99;
-}
-.popup_t .content .text_center{
-	padding: 10px 0px;
-}
-.popup_t .content .text_center img{
-	position: static;
-	margin-bottom: 30px;
-}
-.text_center .content_texts{
-	padding: 0px 15%;
-}
-.text_center .content_texts p{
-	font-size: 1.4rem;
-	letter-spacing: 0px;
-	color: #34495E;
-	text-align: left;
-}
-
-.text_center .content_texts p span{
-	color: #EFA625;
-	font-style: italic;
-	font-weight: 700;
-}
-.text_center .content_texts h3{
-	font-size: 1.5rem;
-	letter-spacing: 0px;
-	color: #34495E;
-	font-style: italic;
-	font-weight: 700;
-	margin: 20px 0px;
-}
-.text_center .content_texts .link_login{
-	padding: 10px 0px;
-	z-index: 9999;
-	position: relative;
-}
-.text_center .content_texts .link_login a{
-	font-weight: 700;
-	width: 70%;
-	cursor: pointer;
-	transition:  all .5s;
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	font-size: 1.5rem;
-	letter-spacing: 0px;
-	color: #34495E;
-	text-align: center;
-	padding: 10px 0px;
-	background: #EFA625 0% 0% no-repeat padding-box;
-	border: 1px solid #EFA625;
-	border-radius: 19px;
-}
-.text_center .content_texts .link_login a:hover{
-	color: #EFA625;
-	background: #34495E;
 }
 @keyframes scale_r{
 	from{transform: scale(.6);}
 	to{transform: scale(1);}
-}
-@media(max-width: 767px){
-	.popup_t .img_z_right {
-		width: 30%;
-		bottom: 0;
-	}
-	.popup_t  .img{
-		position: absolute;
-		bottom: -40px;
-		z-index: -1;
-	}
-	.popup_t .content .main_content {
-		position: relative;
-	}
-	.text_center .content_texts .link_login a {
-		width: 90%;
-	}
-	.text_center {
-		max-width: 90%;
-	}
 }

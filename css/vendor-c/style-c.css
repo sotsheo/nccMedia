@@ -1228,7 +1228,7 @@ img.mg-right{
 .box-desc-ky span{
   margin-left: 10px;
 }
- a.hvr-shutter-in-vertical.a-dky{
+ button.hvr-shutter-in-vertical.a-dky.dky{
     border-radius: 32px;
     font: Bold 18px/24px Segoe UI;
     letter-spacing: 0px;
@@ -1238,7 +1238,7 @@ img.mg-right{
     padding: 5px 35px;
     box-shadow: 0px 3px 9px #00000029;
  }
- .hvr-shutter-in-vertical.a-dky:before{
+ button.hvr-shutter-in-vertical.a-dky.dky:before{
   border-radius: 32px;
  }
  .box-dvu-qcao.text-center.tai-tro.qcao.dky.wow.fadeInUp{
@@ -1302,8 +1302,14 @@ i.star-ero{
 .sologan-dky,.question-tkhoan.text-center{
   margin: 20px 0px;
 }
-a.hvr-shutter-in-vertical.a-dky.dky{
+button.hvr-shutter-in-vertical.a-dky.dky{
   width: 70%;
+  outline: none;
+  border: 1px solid #EFA625;
+}
+button.hvr-shutter-in-vertical.a-dky.dky:hover{
+  background-color: #19415B;
+  color: #fff;
 }
 .question-tkhoan.text-center a:first-child{
   font: Regular 14px/19px Segoe UI;
@@ -1373,9 +1379,7 @@ img.dk3{
   width: 300px;
   display: inline-block;
 }
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
-  border-top: none;
-}
+
 th.title-sp{
   color: #fff;
   font: Bold 14px/19px Segoe UI;
@@ -1621,4 +1625,26 @@ img.img-user{
 }
 ._edit:hover{
   color: green;
+}
+.table-user thead tr th.check-bold-2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.table-user thead tr th.check-bold-3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #34495E;
+}
+.table-user .bottom_check tr th{
+  padding: 20px 0px;
+}
+th.buy-hang{
+  background-color: #EFA625;
+}
+th.buy-hang:hover{
+  background-color: #19415B;
+}
+th.buy-hang a{
+  color: #fff;
+  font-size: 24px;
 }
