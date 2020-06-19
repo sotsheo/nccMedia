@@ -49,7 +49,7 @@
     font: 20px/32px Segoe UI;
   }
    .scr_{
-      overflow-x: scroll;
+      overflow: scroll;
       }
       .scr_ table{
         min-width: 200%;

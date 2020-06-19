@@ -177,6 +177,9 @@
 			</div>
 			<div class="container">
 				<div class="form_dt">
+					<link rel="stylesheet" type="text/css" href="js/picker/bootstrap-datetimepicker.min.css">
+					<script src="js/picker/moment.min.js"></script>
+					<script src="js/picker/bootstrap-datetimepicker.min.js"></script>
 					<form class="clear_float">
 						<div class="group_input_f group_t pdr_15">
 							<div class="group_input_f group_t pdr_15">
@@ -323,25 +326,17 @@
 								<div class="group_flex">
 									<p class="pdr_15">Từ</p>
 									<div class="group_input_f pd_5">
-										<select class="time_start">
-											<option>12:0</option>
-										</select>
+										<input type="" name="" class="timepicker" value="12:00">
 									</div>
 									<div class="group_input_f pd_5">
-										<select class="day_start">
-											<option>12:0</option>
-										</select>
+										<input type="" name="" class="datepicker" value="14/10/2020">
 									</div>
 									<p class="pdr_15">Đến</p>
 									<div class="group_input_f pd_5">
-										<select class="time_start">
-											<option>12:0</option>
-										</select>
+										<input type="" name="" class="timepicker" value="12:00">
 									</div>
 									<div class="group_input_f pd_5">
-										<select class="day_start">
-											<option>12:0</option>
-										</select>
+										<input type="" name="" class="datepicker" value="14/10/2020">
 									</div>
 								</div>
 							</div>
@@ -386,6 +381,10 @@
 							<button type="submit" class="btn_submit">Đăng tin</button>
 						</div>
 					</form>
+					<script type="text/javascript">					 
+						$(".datepicker").datetimepicker({format: 'DD/MM/YYYY'});
+						$(".timepicker").datetimepicker({format: 'H:s'});						
+					</script>
 				</div>
 			</div>
 		</div>

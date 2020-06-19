@@ -38,12 +38,9 @@ $('.slider_experience_t').slick({
 $(".show_menu_mb").click(function(){
     $(this).toggleClass("active");
     $(".menu_mobile_t").toggleClass("active");
-})
-var burgerBtn = document.getElementById('burgerBtn');
-var mobile = document.getElementById('mobile');
-var content_mobile = document.getElementById('content_mobile');
-var demo2 = document.getElementById('demo2');
-var demo3 = document.getElementById('demo3');
+});
+
+
 
 // burgerBtn.addEventListener('click', function() {
 //   mobile.classList.toggle('navigation');
