@@ -320,4 +320,7 @@
 		max-width: unset;
 		margin-left: 0px;
 	}
+	.bg_alert .bgr{
+		display: none;
+	}
 }
