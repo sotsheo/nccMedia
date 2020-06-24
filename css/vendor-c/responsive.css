@@ -1,120 +1,232 @@
-@media(max-width: 1600px) {
-    
-    }
+@media (max-width: 1600px) {
+}
 
 @media (max-width: 1366px) {
-    
-    
 }
 @media (max-width: 1200px) {
-   img.dk3{
-    width: 60%;
-   }
+    img.dk3 {
+        width: 60%;
+    }
+    .sp h1 {
+        width: 100%;
+    }
+    .m-ten img{
+        display: none;
+    }
 }
 @media (max-width: 1024px) {
-   
 }
 
 @media (max-width: 992px) {
-     img.bg-footer{
-      display: none;
-      opacity: 0;
-    }
     img.dk3 {
-    width: 35%;
-    bottom: 0px;
-    left: -20px;
+        width: 35%;
+        bottom: 0px;
+        left: -20px;
     }
-
 }
 
 @media (max-width: 768px) {
-    .box-1-left,.box-2-right{
-      border-radius: 0;
+    .box-1-left,
+    .box-2-right {
+        border-radius: 0 !important;
     }
-    .box-1-left{
-      margin-bottom: 20px;
+    .box-1-left {
+        margin-bottom: 0px;
     }
-    .slick-next,.slick-prev,#back2Top{
-      display: none !important;
-      opacity: 0;
+    img.img-bg-yc {
+        display: none !important;
+        opacity: 0;
     }
-    .hero h1{
-      font: Bold 23px/40px Segoe UI;
+    .slick-next,
+    .slick-prev,
+    #back2Top {
+        display: none !important;
+        opacity: 0;
+    }
+    .hero h1 {
+        font: Bold 23px/40px Segoe UI;
     }
     .hero h4 {
-    font: Bold 18px/32px Segoe UI;
-  }
-  .hero h5{
-    font: 20px/32px Segoe UI;
-  }
-   .scr_{
-      overflow: scroll;
-      }
-      .scr_ table{
+        font: Bold 18px/32px Segoe UI;
+    }
+    .hero h5 {
+        font: 20px/32px Segoe UI;
+    }
+    .scr_ {
+        overflow-x: scroll;
+    }
+    .scr_ table {
         min-width: 200%;
-      }
+    }
+     .hidden-pc{
+        display: block !important;
+        opacity: 1 !important;
+    }
+    .nav{
+    background-color: rgb(18, 47, 66)!important;
+    }
 }
 
 @media (max-width: 700px) {
-    ul#nav li a{
-      padding: 20 !important;
+    ul#nav li a {
+        padding: 20 !important;
     }
 }
 
 @media (max-width: 575px) {
-   
 }
 @media (max-width: 415px) {
-    .buton-cart{
-      width: 100%;
+    .buton-cart {
+        width: 100%;
     }
-    .hidden-icon img{
-      opacity: 1;
-      margin-left: 3px;
+    .hidden-icon img {
+        opacity: 1;
+        margin-left: 3px;
     }
-    .add-cart img,.slick-next,.slick-prev{
-      display: none !important;
-      opacity: 0;
+    .add-cart img,
+    .slick-next,
+    .slick-prev {
+        display: none !important;
+        opacity: 0;
     }
-    .add-cart a{
-      text-align: center;
+    .add-cart a {
+        text-align: center;
     }
-    .box-dvu-qcao h3{
-      font-size: 13px;
+    .box-dvu-qcao h3 {
+        font-size: 15px !important;
     }
-    
-     .navbar-brand img{
-      width: 50%;
+    span.title-mb {
+        margin-bottom: 20px;
+        display: block;
     }
-    .searchTerm,.searchButton {
-      height: 35px;
-      font-size: 11px;
-     }
-     .box-dky{
-      padding: 0px;
-      margin-top: 0px;
-     }
-     .box-title-dky h2{
-      margin-top: 0px ;
-     }
-     .view-all.view-dky.text-center{
-      margin-bottom: 20px;
-     }
-     .box-right {
-     border-right: 2px solid #EFA625;
+    .modal.in .modal-dialog {
+        margin-top: 50px;
     }
-    .no-icon img{
-      display: block;
-      opacity: 1;
+
+    .navbar-brand img {
+        width: 50%;
     }
-    .title-buton h1{
-      width: 100%;
-      font-size: 13px;
+    .searchTerm,
+    .searchButton {
+        height: 35px;
+        font-size: 11px;
     }
-    .add-cart.buy-ctsp1.dat-lich a{
-      margin-top: 0px;
-      line-height: 45px;
+    .box-dky {
+        padding: 0px;
+        margin-top: 0px;
     }
-    
+    .box-title-dky h2 {
+        margin-top: 0px;
+    }
+    .view-all.view-dky.text-center {
+        margin-bottom: 20px;
+    }
+    .box-right {
+        border-right: 2px solid #efa625;
+    }
+    .title-buton.left._50.float-none.w_100 {
+        padding-right: 0px;
+    }
+    .no-icon img {
+        display: block;
+        opacity: 1;
+    }
+    .title-buton h1 {
+        width: 100% !important;
+        font-size: 13px !important;
+    }
+    .add-cart.buy-ctsp1.dat-lich a {
+        margin-top: 0px;
+        line-height: 45px;
+    }
+    .title-buton.left._50,
+    .title-buton.left._50.float-none.w_100 {
+        width: 100%;
+    }
+    .add-cart.buy-ctsp1.dat-lich a {
+        font-size: 12px !important;
+    }
+
+    .coppy-right p {
+        font-size: 12px;
+    }
+    .table_t table th {
+        text-align: center;
+    }
+    .mb-top10 {
+        margin-top: 20px;
+    }
+    a.input-group-addon:last-child {
+        height: 30px;
+    }
+    button.hvr-shutter-in-vertical.a-dky.dky.btn_signup.w-50.top_10 {
+        width: 70% !important;
+    }
+    .top_100 {
+        margin-top: 0px !important;
+    }
+    .row.box-dky {
+        padding: 0px;
+    }
+    a.navbar-brand.gio.hang img {
+        margin-top: -22px !important;
+    }
+    .detai-user {
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    th.check-bold-3 {
+        font-size: 20px !important;
+    }
+    .main_content.content-dky.fix-mobile img,
+    .main_content.fix-mobile img {
+        top: -80px !important;
+        width: 35%;
+    }
+    .title-popup-dy.fix-mobile {
+        top: -30%;
+    }
+    .title-popup-dy.fix-mobile h3 {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .mov.mov-dky.fix-mobile,
+    .mov.fix-mobile {
+        bottom: -20px !important;
+    }
+    .content_text.fix-mobile h2 {
+        margin-bottom: 60px !important;
+    }
+    .group_float.clear_float.fix-c {
+        overflow-y: scroll;
+        max-height: 500px;
+    }
+    .fa.fa-times.close_ll.close_p.fix-c {
+        top: 80px !important;
+        right: -10px !important;
+        font-size: 25px !important;
+    }
+    .group_float .w .contents_t img {
+        width: 0px !important;
+    }
+    .title_p.fix-c.title_p h2 {
+        margin-top: 100px !important;
+    }
+    .content_texts.mgr-170.fix-c {
+        margin-right: 0px !important;
+    }
+    .title-popup-dy.mua-ngay.fix-mobile h1{
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .title-popup-dy.mua-ngay.fix-mobile h3{
+        margin-top: 10px;
+    }
+    .img.sale-th{
+        height: auto !important;
+    }
+    .text-product-best-sale.kenh-th h2{
+        font-size: 14px !important;
+    }
+   
 }

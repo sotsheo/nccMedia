@@ -31,24 +31,24 @@ jQuery(document).on('ready', function ($) {
     });
 
 
-    /*----------------------------
-        SCROLL TO TOP
-    ------------------------------*/
-    $(window).scroll(function () {
-        var $totalHeight = $(window).scrollTop();
-        var $scrollToTop = $(".scrolltotop");
-        if ($totalHeight > 300) {
-            $(".scrolltotop").fadeIn();
-        } else {
-            $(".scrolltotop").fadeOut();
-        }
+    // /*----------------------------
+    //     SCROLL TO TOP
+    // ------------------------------*/
+    // $(window).scroll(function () {
+    //     var $totalHeight = $(window).scrollTop();
+    //     var $scrollToTop = $(".scrolltotop");
+    //     if ($totalHeight > 300) {
+    //         $(".scrolltotop").fadeIn();
+    //     } else {
+    //         $(".scrolltotop").fadeOut();
+    //     }
 
-        if ($totalHeight + $(window).height() === $(document).height()) {
-            $scrollToTop.css("bottom", "90px");
-        } else {
-            $scrollToTop.css("bottom", "20px");
-        }
-    });
+    //     if ($totalHeight + $(window).height() === $(document).height()) {
+    //         $scrollToTop.css("bottom", "90px");
+    //     } else {
+    //         $scrollToTop.css("bottom", "20px");
+    //     }
+    // });
 
 
     
@@ -58,11 +58,11 @@ jQuery(document).on('ready', function ($) {
 
 
 
-jQuery(window).on('load', function () {
-    "use strict";
-    /*--------------------------
-        PRE LOADER
-    ----------------------------*/
-    $(".preeloader").fadeOut(1000);
+// jQuery(window).on('load', function () {
+//     "use strict";
+//     --------------------------
+//         PRE LOADER
+//     ----------------------------
+//     $(".preeloader").fadeOut(1000);
 
-});
+// });

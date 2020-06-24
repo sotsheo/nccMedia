@@ -108,5 +108,10 @@
       margin-top: 0px;
       line-height: 45px;
     }
+    .main_content.content-dky.fix-mobile img{
+       top: -80px;
+       width: 35%;
+    }
+    
     
 }
