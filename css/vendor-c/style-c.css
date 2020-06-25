@@ -88,7 +88,7 @@ img {
 }
 .hero {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     width: 100%;
     z-index: 2;
@@ -186,7 +186,7 @@ img {
   border: none;
   border-right: none;
   padding: 5px;
-  height: 50px;
+  height: 62px;
   padding-left: 10%;
   border-radius: 5px 5px 5px 5px;
   outline: none;
@@ -197,14 +197,15 @@ img {
 
 
 .searchButton {
-  width: 25%;
-  height: 50px;
+  width: 18%;
+  height: 62px;
   border: none;
   background: #efa625;
   text-align: center;
   color: #fff;
   cursor: pointer;
   font-size: 15px;
+  line-height: 62px;
   border-radius: 5px 5px 5px 5px;
   outline: none;
 }
@@ -594,15 +595,7 @@ color: #1E1E1E;
 .item-product-best-sale{
     transition: all 0.3s ease 0s;
 }
-.item-product-best-sale:hover{
-    box-shadow: 0 8px 10px 0 rgba(143, 143, 143, 1);
-    -webkit-transform: translateY(-3px);
-    -moz-transform: translateY(-3px);
-    -ms-transform: translateY(-3px);
-    -o-transform: translateY(-3px);
-    transform: translateY(-3px);
 
-}
 .slick-list.draggable{
     margin-bottom: 30px;
     margin-top: 20px;
@@ -624,7 +617,7 @@ color: #1E1E1E;
 }
 .product.wapper.bg-ed.khach-hang button.slick-prev.slick-arrow,
 .product.wapper.bg-ed.khach-hang button.slick-next.slick-arrow{
-  top: -180px;
+  top: -25px;
 }
 .box-dvu-qcao.text-center.tai-tro{
     margin-top: 10px;
@@ -778,7 +771,7 @@ i.fa.fa-clock-o{
     height: 30px;
     z-index: 99;
     border: none;
-    background: #0A4883 0% 0% no-repeat padding-box;
+    background: #09090961 0% 0% no-repeat padding-box;
     margin: auto;
     opacity: 0.5;
     padding: 0;
@@ -793,8 +786,8 @@ i.fa.fa-clock-o{
     left: 5px;
     top: 9px;
     width: 18px;
-    height: 3px;
-    background: #fff;
+    height: 4px;
+    background: #090909a8;
     transform: rotate(-40deg);
     border-radius: 15px;
 }
@@ -805,8 +798,8 @@ i.fa.fa-clock-o{
     left: 5px;
     top: 19px;
     width: 18px;
-    height: 3px;
-    background: #fff;
+    height: 4px;
+    background: #0f0f0f;
     transform: rotate(40deg);
     border-radius: 15px;
 }
@@ -825,7 +818,7 @@ i.fa.fa-clock-o{
     height: 30px;
     z-index: 99;
     border: none;
-    background: #0A4883 0% 0% no-repeat padding-box;
+    background: #09090961 0% 0% no-repeat padding-box;
     margin: auto;
     opacity: 0.5;
     padding: 0;
@@ -838,10 +831,10 @@ i.fa.fa-clock-o{
     content: "";
     position: absolute;
     left: 6px;
-    top: 8px;
-    width: 15px;
-    height: 3px;
-    background: #ffffff;
+    top: 9px;
+    width: 19px;
+    height: 4px;
+    background: #111010;
     transform: rotate(40deg);
     border-radius: 15px;
 }
@@ -849,11 +842,11 @@ i.fa.fa-clock-o{
 .slick-next:before {
     content: "";
     position: absolute;
-    left: 7px;
-    top: 17px;
-    width: 15px;
-    height: 3px;
-    background: #ffffff;
+    left: 6px;
+    top: 20px;
+    width: 18px;
+    height: 4px;
+    background: #151414;
     transform: rotate(-40deg);
     border-radius: 15px;
 }
@@ -895,7 +888,7 @@ i.fa.fa-clock-o{
 .category-product::after{
     content: "";
     width: 11px;
-    height: 44px;
+    height: 45px;
     transform: skew(35deg);
     background: #efa625;
     position: absolute;
@@ -971,7 +964,6 @@ i.fa.fa-clock-o{
     transition: all 0.3s ease 0s;
 }
 .item-product-best-sale:hover{
-    box-shadow: 0 8px 10px 0 rgba(143, 143, 143, 1);
     -webkit-transform: translateY(-3px);
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
@@ -1704,12 +1696,18 @@ th.buy-hang a{
 }
 span#city-addon:first-child{
   border-radius: 5px;
-  border-right: 1px solid #efa625;
   font-weight: bold;
   color: #19415B;
 }
-span#city-addon{
-  border: 1px solid #efa625;
+.input-group-addon.center{
+  text-align: center !important;
+}
+.input-group-addon{
+  background-color: #eee0;
+  border: none;
+  padding: 0px;
+  padding-bottom: 10px;
+  text-align: left;
 }
 a.input-group-addon:last-child {
   border-radius: 5px;
@@ -1719,13 +1717,17 @@ a.input-group-addon:last-child {
   background-color: #EFA625;
   font-size: 18px;
   font-weight: bold;
-  height: 60px;
+  height:45px;
+  width: 70%;
+  float: right;
+  line-height: 45px;
 }
 a.input-group-addon:last-child:hover{
   background-color: #19415B;
 }
 select.form-control.city{
   color: #19415B;
+  height: 45px;
 }
 select.form-control.city:focus{
   color: #19415B !important;
@@ -1748,6 +1750,9 @@ select.form-control.city:focus{
 button.hvr-shutter-in-vertical.a-dky.dky.btn_signup.w-50.top_10{
   width: 50%;
   color: #fff;
+}
+.w-50.top_10{
+  width: 40% !important;
 }
 .avata{
   width: 200px;
@@ -1848,7 +1853,28 @@ a.btn_link.fix-c{
     height: 75px;
     z-index: 999999999999;
 }
-
+.bt-0{
+  margin-bottom: -30px !important;
+}
+.left-40{
+ float: left;
+}
+.right-40{
+ float: right;
+}
+.group_float .w .contents_t.fix-c p{
+  text-align: left;
+}
+.main_content.fix-mobile img{
+  width: 25%;
+}
+.mov.mov-dky.fix-mobile a{
+      padding: 8px 40px !important;
+}
+span.glyphicon.glyphicon-remove.top-50px.lich {
+    right: -55px;
+    top: -45px;
+}
 /* ///////////////////////csss-thanh scoll /////////////
 }
  */

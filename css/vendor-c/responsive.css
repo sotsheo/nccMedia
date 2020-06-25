@@ -228,5 +228,11 @@
     .text-product-best-sale.kenh-th h2{
         font-size: 14px !important;
     }
+    span#city-addon:first-child{
+        padding-top: 20px;
+    }
+    a.input-group-addon:last-child{
+        width: 100% !important;
+    }
    
 }
