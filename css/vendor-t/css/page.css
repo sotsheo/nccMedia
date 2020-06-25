@@ -709,8 +709,8 @@
 
 .content_right{
 	position: absolute;
-	right: 10%;
-	top: 40%;
+	right: 20%;
+	top: 35%;
 	width: 470px;
 }
 .content_right .title h2{
@@ -1010,4 +1010,18 @@
 .checkbox_t  input[type=checkbox]:checked+label::before, .checkbox_t input[type=radio]:checked+label::before {
     font-family: FontAwesome;
     content: "\f00c";
+}
+i.fa.fa-clock-o {
+    transform: rotate(90deg);
+}
+.page_info .row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 50px;
+}
+@media(max-width: 992px){
+	.page_info .row{
+		margin-bottom: 20px;
+	}
 }
