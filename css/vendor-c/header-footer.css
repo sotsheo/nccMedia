@@ -17,9 +17,6 @@
 .page_account .menu_ac_main.fix-c li a:hover{
     color: #EFA625;
 }
-.page_account.fix-c{
-    display: none;
-}
 .create_news.fix-c img{
     margin-right: 10px;
 }

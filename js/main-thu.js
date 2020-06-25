@@ -362,7 +362,7 @@ $('.slide-vung').slick({
 
 /*js slide đôi khách hàng*/
 $('.list-product-best-sale3').slick({
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
         dots:false,
@@ -456,11 +456,6 @@ $(document).ready(function() {
   $(".categrory").click(function(){
       $(".menu-item").toggle();
   });
-
-   $(".header_account").click(function(){
-      $(".page_account").toggle();
-  });
-
 
 /*js click menu drowdoun*/
  $(function(){
