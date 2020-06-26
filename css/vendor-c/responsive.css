@@ -7,7 +7,7 @@
     img.dk3 {
         width: 60%;
     }
-    .sp h1 {
+    .sp h2 {
         width: 100%;
     }
     .m-ten img{
@@ -43,7 +43,7 @@
         display: none !important;
         opacity: 0;
     }
-    .hero h1 {
+    .hero h2 {
         font: Bold 23px/40px Segoe UI;
     }
     .hero h4 {
@@ -131,7 +131,7 @@
         display: block;
         opacity: 1;
     }
-    .title-buton h1 {
+    .title-buton h2,.nav-item.left-50 a {
         width: 100% !important;
         font-size: 13px !important;
     }
@@ -215,7 +215,7 @@
     .content_texts.mgr-170.fix-c {
         margin-right: 0px !important;
     }
-    .title-popup-dy.mua-ngay.fix-mobile h1{
+    .title-popup-dy.mua-ngay.fix-mobile h2{
         font-size: 14px;
         margin-top: 0px;
     }
@@ -234,5 +234,11 @@
     a.input-group-addon:last-child{
         width: 100% !important;
     }
+    .image-circle{
+        margin-bottom: 20px  !important;
+    }
+   .flex-nav{
+    background-color: #ff000000 !important;
+   }
    
 }

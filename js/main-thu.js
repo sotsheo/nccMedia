@@ -362,16 +362,15 @@ $('.slide-vung').slick({
 
 /*js slide đôi khách hàng*/
 $('.list-product-best-sale3').slick({
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         dots:false,
         infinite:true,
         pauseOnHover:true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         fade: false,
-        asNavFor: '.list-product-best-sale5',
         responsive: [
         {
             breakpoint: 1300,
@@ -398,41 +397,7 @@ $('.list-product-best-sale3').slick({
     }
     ]
     });
-    $('.list-product-best-sale5').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        arrows: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        dots:false,
-        infinite:true,
-        fade: false,
-        asNavFor: '.list-product-best-sale3',
-        responsive: [
-    {
-        breakpoint: 1300,
-        settings: {
-            slidesToShow: 3,
-            arrows: false   
-        }
-    },
-    {
-        breakpoint: 768,
-        settings: {
-            slidesToShow: 2,
-            arrows: false
-
-        }
-    },
-    {
-        breakpoint: 475,
-        settings: {
-            slidesToShow: 2,
-            arrows: false   
-        }
-    }
-    ]
-    });
+   
 
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {

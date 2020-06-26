@@ -34,7 +34,7 @@ img {
     height: auto;
 }
 .white,
-.white h1,
+.white h2,
 .white h2,
 .white h3,
 .white h4,
@@ -102,7 +102,7 @@ img {
     -o-transform: translate3d(-50%,-50%,0);
     transform: translate3d(-50%,-50%,0);
 }
-.hero h1 {
+.hero h2 {
     font: Bold 30px/40px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -163,7 +163,7 @@ img {
 }
 
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 25px; }    
+    .hero h2 { font-size: 25px; }    
 }
 @media screen and (max-width: 1300px)and (min-width: 1100px) {
     .sign-up {
@@ -617,7 +617,7 @@ color: #1E1E1E;
 }
 .product.wapper.bg-ed.khach-hang button.slick-prev.slick-arrow,
 .product.wapper.bg-ed.khach-hang button.slick-next.slick-arrow{
-  top: -180px;
+  top: -25px;
 }
 .box-dvu-qcao.text-center.tai-tro{
     margin-top: 10px;
@@ -971,7 +971,7 @@ i.fa.fa-clock-o{
     transform: translateY(-3px);
 
 }
-.hero h1,.hero h4,.hero h5{
+.hero h2,.hero h4,.hero h5{
     margin-bottom: 20px;
     z-index: 99999;
 }
@@ -1081,7 +1081,7 @@ ul.menu-popup-mb li a::before{
     font-style: italic;
     margin-top: 20px;
 }
-.mua-ngay h1{
+.mua-ngay h2{
   font: 21px Segoe UI;
   letter-spacing: 0px;
   color: #FFFFFF;
@@ -1360,12 +1360,36 @@ img.dk3{
 }
 /* ////////////////////////////css chi tiÃƒÂ¡Ã‚ÂºÃ‚Â¿t sp1///////////////////
  */
-.title-buton.left._50.float-none {
-    float: none;
+.left-50{
+  width: 50% !important;
+  display: block;
 }
 .icon-cart{
   width: 5%;
   margin-bottom: 3px;
+}
+.flex-nav{
+  display: flex;
+  margin-top: 20px;
+}
+.nav-item.left-50 a {
+ background-color: #fff;
+ text-align: center;
+ font: Bold 20px Segoe UI;
+ letter-spacing: 0px;
+ color: #EFA625;
+ padding: 10px 0px;
+ background: #fff 0% 0% no-repeat padding-box;
+ box-shadow: 0px 3px 6px #00000029;
+ border-radius: 5px;
+ margin-bottom: 20px;
+}
+.nav-item.left-50 a:hover{
+  background-color: unset;
+}
+li.nav-item.left-50.active a{
+  background-color: #EFA625 ;
+  color: #fff;
 }
  .table.no-boder-top tbody tr td,.table.no-boder-top tbody tr th {
   border-top: none !important;
@@ -1380,7 +1404,7 @@ img.dk3{
 .col-xs-12.col-sm-12.col-md-6.col-lg-6.col-baner-leff.no-padinh{
   padding: 0px !important;
 }
-.title-buton h1{
+.title-buton h2{
   width: 50%;
   background-color: #EFA625;
   text-align: center;
@@ -1393,7 +1417,7 @@ img.dk3{
   border-radius: 5px;
   margin-bottom: 20px;
 }
-.sp h1{
+.sp h2{
   width: 60%;
 }
 .content-sp span:first-child{
@@ -1477,22 +1501,23 @@ th.title-sp{
 .title-buton.right._50{
   padding-left: 10px;
 }
-.title-buton.left._50 h1,.title-buton.right._50 h1{
+.title-buton.left._50 h2,.title-buton.right._50 h2{
   width: 100%;
 }
-.content-sp h5{
+.content-sp span{
   font: Bold 14px/19px Segoe UI;
   color: #34495E;
 }
 .box-dvu-qcao.text-center.tai-tro.qcao.ctsp{
   margin-top: 30px;
 }
+
 /* ///////////////////////////////////////////////css-gÃƒÂ¡Ã‚Â»Ã‚Â§i yÃƒÆ’Ã‚Âªu caauf1///////////////////// */
 .custom-select {
   margin-bottom: 20px;
   position: relative;
 }
-.title-select h1 {
+.title-select h2 {
   font: Bold 14px/19px Segoe UI;
   letter-spacing: 0px;
   color: #141414;
@@ -1791,7 +1816,7 @@ img.img-avatar{
 .modal-body.lich{
   padding: 0px;
 }
-.bg-white h1{
+.bg-white h2{
   background-color: #fff;
   color: #EFA625;
 }
