@@ -633,6 +633,7 @@ color: #1E1E1E;
     color: #1E1E1E;
     text-transform: capitalize;
     margin-top: 10px;
+    text-align: center;
 }
 .buy-now.w50{
     width: 50%;
@@ -1588,6 +1589,7 @@ textarea{
   color: #FFFFFF;
   border: none;
   margin-bottom: 20px;
+  outline: none;
 }
 .sent-yc:hover, button.bt-save-user:hover{
   background: #00d1e1 !important;
@@ -1900,6 +1902,29 @@ span.glyphicon.glyphicon-remove.top-50px.lich {
     right: -55px;
     top: -45px;
 }
+.content-sp{
+  float: left;
+}
+.view-t{
+  display: none;
+  margin-top: 20px;
+}
+.view-add a{
+  color: #122f42;
+  font-weight: bold;
+}
+.view-add a:hover{
+  color: red;
+}
+.max-hight-content p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
+
+
 /* ///////////////////////csss-thanh scoll /////////////
 }
  */
