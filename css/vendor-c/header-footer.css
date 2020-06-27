@@ -827,6 +827,7 @@ ul#nav li ul a,
     transition: 500ms ease-out 200ms;
     padding-bottom: 0px;
     z-index: 1;
+    height: 507px;
 }
 
 @media (max-width: 1200px) and (min-width: 991px) {
