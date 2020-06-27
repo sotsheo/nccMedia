@@ -1924,6 +1924,14 @@ span.glyphicon.glyphicon-remove.top-50px.lich {
   -webkit-box-orient: vertical;
 }
 
+.pdr_15{
+  padding: 0px 20px;
+}
+.pull-right.top10.chitiet{
+    margin-top: -25px;
+    margin-right: -65px;
+    color: #fff;
+}
 
 /* ///////////////////////csss-thanh scoll /////////////
 }
