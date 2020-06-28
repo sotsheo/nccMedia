@@ -242,3 +242,21 @@
    }
    
 }
+
+@media (min-width: 1200px){
+         .col-lg-2{
+            width:20% ;
+        }
+        .col-md-33{
+            width:33% ;
+}
+@media (min-width: 992px){
+         .col-lg-2,.col-md-33 {
+            width:20%  ;
+        }
+}
+@media (min-width: 768px){
+         .col-lg-2,.col-md-33{
+            width:20% ;
+        }
+}

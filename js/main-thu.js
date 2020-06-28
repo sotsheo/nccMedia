@@ -186,6 +186,9 @@ $('.list-product-best-sale').slick({
     }
     ]
 });
+
+
+
 $('.list-product-best-sale2').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
