@@ -432,4 +432,6 @@ $(document).ready(function() {
     });
  });
 
-  /*js- menu-select trang gửi yêu cầu*/
+$( ".header_account" ).click(function() {
+    $( ".page_account.fix-c" ).toggle();
+});

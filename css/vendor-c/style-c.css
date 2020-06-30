@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Segoe UI";
-    src: url(../fonts/SegoeUI.ttf);
+    src: url(../fonts/Segoe UI.ttf);
 }
 @font-face {
     font-family: "Segoe UI";
-    src: url(../fonts/SegoeUIBold.ttf);
+    src: url(../fonts/Segoe UI Bold.ttf);
     font-weight: 600;
 }
 body {
@@ -1143,9 +1143,10 @@ i.fa.fa-clock-o {
     outline: none;
 }
 
-.add-cart:hover {
-    background-color: #3cba9c;
+.add-cart:hover  {
+    background-color: #efa625;
 }
+
 .add-cart {
     width: 100%;
     height: 30px;
@@ -1160,13 +1161,13 @@ i.fa.fa-clock-o {
     letter-spacing: 0px;
     color: #34495e;
     display: block;
-    margin-top: 5px;
+    margin-top: 3px;
     outline: none;
 }
 .add-cart img {
     float: left;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 10px;
     margin-right: 7px;
     align-items: center;
 }
@@ -2184,8 +2185,98 @@ span.glyphicon.glyphicon-remove.top-50px.lich {
 .bt-30{
     margin-bottom: 30px;
 }
+.page_account.fix-c{
+    display: none;
+}
+p.logout-user a:hover{
+    color: red !important;
+}
 
-
+.home-search__form {
+    display: flex;
+}
+.home-search__form .home-search__form--left {
+    flex: auto;
+    margin-right: 12px;
+}
+.home-search__form input {
+    font-size: 18px;
+    padding: 25px 25px 25px 60px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.22);
+    height: 62px;
+    position: relative;
+    position: relative;
+    z-index: 3;
+}
+button.btn-custom.btn-main {
+    color: #fff;
+    background-color: #ffbd30;
+}
+button.btn-custom {
+    font-weight: 500;
+    border-radius: 4px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1rem;
+}
+.home-search__form button {
+    font-size: 18px;
+    height: 62px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.22);
+    position: relative;
+    z-index: 3;
+}
+.search-and-signup-button{
+    position: relative;
+}
+.search-and-signup-button span {
+    position: absolute;
+    right: -10px;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    background: #fad400;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 15px;
+    padding-right: 0px;
+    top: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.if{
+    width: 100%;
+    height: 322px;
+}
+ .more-image {
+    position: absolute;
+    z-index: 1;
+    bottom: 24px;
+    right: 24px;
+    left: auto;
+}
+a.btn-custom.btn-white {
+    font-size: 14px;
+    color: #2a2a2a;
+    background: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+a.btn-custom.btn-white:hover{
+    background-color: #efa625;
+    color: #fff;
+}
+a.view-img {
+    font-weight: 500;
+    border-radius: 4px;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1rem;
+}
+.top-img,.map-ctsp{
+    overflow: hidden;
+    width: 100%;
+}
 /* ///////////////////////csss-thanh scoll /////////////
 }
  */

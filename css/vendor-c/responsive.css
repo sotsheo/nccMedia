@@ -108,7 +108,7 @@
     }
     .searchTerm,
     .searchButton {
-        height: 35px;
+        height: 35px !important;
         font-size: 11px;
     }
     .box-dky {
@@ -240,6 +240,13 @@
    .flex-nav{
     background-color: #ff000000 !important;
    }
+    .home-search__form{
+    display: none !important;
+
+   }
+   i.fa.fa-search.mb{
+    display: block;
+   }
    
 }
 
@@ -248,7 +255,7 @@
             width:20% ;
         }
         .col-md-33{
-            width:33% ;
+            width:33% ;}
 }
 @media (min-width: 992px){
          .col-lg-2,.col-md-33 {
@@ -258,5 +265,10 @@
 @media (min-width: 768px){
          .col-lg-2,.col-md-33{
             width:20% ;
+        }
+}
+@media (min-width: 414px){
+        .search.mb{
+            display: none;
         }
 }

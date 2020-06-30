@@ -381,10 +381,19 @@
                             <br />
                         </hgroup>
                         <div class="wrap">
-                            <form class="search" action="#">
-                                <input name="search" type="text" class="searchTerm" placeholder="Tên kênh, hình thức, sản phẩm quảng cáo hoặc vùng miền..." />
-                                <button type="submit" class="searchButton"><span>Tìm Kiếm</span></button>
-                            </form>
+                            <div class="home-search__form">
+                                <div class="position-relative home-search__form--left">
+                                    <div>
+                                        <input type="text" placeholder="Tên kênh, hình thức, sản phẩm quảng cáo hoặc vùng miền..." value="" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="home-search__form--right"><button type="button" class="btn-main btn btn-custom">Tìm kiếm</button></div>
+                            </div>
+
+                            <form class="search mb" action="#"> 
+                                <input name="search" type="text" class="searchTerm mb" placeholder="Tìm kiếm" />
+                                <button type="submit" class="searchButton mb"><i class="fa fa-search mb" aria-hidden="true"></i></button>
+                            </form><!-- form-mobile -->
                         </div>
                     </div>
                     <div class="item slides active">
