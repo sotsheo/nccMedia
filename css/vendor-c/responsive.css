@@ -244,7 +244,7 @@
     display: none !important;
 
    }
-   i.fa.fa-search.mb{
+   i.fa.fa-search.mb,.bt-close{
     display: block;
    }
    
@@ -268,7 +268,7 @@
         }
 }
 @media (min-width: 414px){
-        .search.mb{
+        .search.mb,.bt-close{
             display: none;
         }
 }

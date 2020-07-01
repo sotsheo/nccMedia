@@ -1126,39 +1126,39 @@
             this.isShowing = false;
         },
 
-        toggle: function(e) {
-            if (this.isShowing) {
-                this.hide();
-            } else {
-                this.show();
-            }
-        },
+        // toggle: function(e) {
+        //     if (this.isShowing) {
+        //         this.hide();
+        //     } else {
+        //         this.show();
+        //     }
+        // },
 
-        outsideClick: function(e) {
-            var target = $(e.target);
-            // if the page is clicked anywhere except within the daterangerpicker/button
-            // itself then call this.hide()
-            if (
-                // ie modal dialog fix
-                e.type == "focusin" ||
-                target.closest(this.element).length ||
-                target.closest(this.container).length ||
-                target.closest('.calendar-table').length
-                ) return;
-            this.hide();
-            this.element.trigger('outsideClick.daterangepicker', this);
-        },
+        // outsideClick: function(e) {
+        //     var target = $(e.target);
+        //     // if the page is clicked anywhere except within the daterangerpicker/button
+        //     // itself then call this.hide()
+        //     if (
+        //         // ie modal dialog fix
+        //         e.type == "focusin" ||
+        //         target.closest(this.element).length ||
+        //         target.closest(this.container).length ||
+        //         target.closest('.calendar-table').length
+        //         ) return;
+        //     this.hide();
+        //     this.element.trigger('outsideClick.daterangepicker', this);
+        // },
 
-        showCalendars: function() {
-            this.container.addClass('show-calendar');
-            this.move();
-            this.element.trigger('showCalendar.daterangepicker', this);
-        },
+        // showCalendars: function() {
+        //     this.container.addClass('show-calendar');
+        //     this.move();
+        //     this.element.trigger('showCalendar.daterangepicker', this);
+        // },
 
-        hideCalendars: function() {
-            this.container.removeClass('show-calendar');
-            this.element.trigger('hideCalendar.daterangepicker', this);
-        },
+        // hideCalendars: function() {
+        //     this.container.removeClass('show-calendar');
+        //     this.element.trigger('hideCalendar.daterangepicker', this);
+        // },
 
         clickRange: function(e) {
             var label = e.target.getAttribute('data-range-key');

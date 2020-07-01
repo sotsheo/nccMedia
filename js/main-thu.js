@@ -435,3 +435,8 @@ $(document).ready(function() {
 $( ".header_account" ).click(function() {
     $( ".page_account.fix-c" ).toggle();
 });
+
+/*add-class-menu-co tk*/
+$(".header_account").click(function(){
+  $(".index-tk").toggleClass("main-nav");
+});

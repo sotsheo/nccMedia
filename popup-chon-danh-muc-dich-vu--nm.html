@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NCN-MEDIA</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="css/vendor-c/header-footer.css" rel="stylesheet" />
+  	<link href="css/vendor-c/style.css" rel="stylesheet" />
+	<link href="css/vendor-t/styles.css" rel="stylesheet" />
+	<link href="css/vendor-t/response.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body class="home-one " data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
+	
+
+	<div class="popup_t active popup_ll top-50 fix-c">
+            <div class="content w-400">
+                <i class="fa fa-times close_ll close_p close-chon" aria-hidden="true"></i>
+                	<div class="nav-side-menuu">
+                		<div class="menu-list">
+                			<ul id="menu-content" class="menu-content collapse out">
+                				<h5>Chọn danh mục kênh</h5>
+                				<li data-toggle="collapse" data-target="#service" class="collapsed">
+                					<a href="#">Kênh truyền hình <span class="arrow or quay"></span></a>
+                					<ul class="sub-menuu collapse" id="service">
+                						<li data-toggle="collapse" data-target="#service" class="collapsed mn2">
+                							<a href="">VTV1</a>
+                						</li>
+                					</ul>
+                				</li>
+                				<li data-toggle="collapse" data-target="#service2" class="collapsed">
+                					<a href="#">Kênh VOV <span class="arrow or quay"></span></a>
+                					<ul class="sub-menuu collapse" id="service2">
+                						<li data-toggle="collapse" data-target="#service" class="collapsed mn2">
+                							<a href="">VTV1</a>
+                						</li>
+                						<li data-toggle="collapse" data-target="#service" class="collapsed mn2">
+                							<a href="">VTV1</a>
+                						</li>
+                					</ul>
+                				</li>
+                				<li data-toggle="collapse" data-target="#service3" class="collapsed">
+                					<a href="#">Kênh xe buýt <span class="arrow or quay"></span></a>
+                					<ul class="sub-menuu collapse" id="service3">
+                						<li data-toggle="collapse" data-target="#service" class="collapsed mn2">
+                							<a href="">VTV1</a>
+                						</li>
+                						<li data-toggle="collapse" data-target="#service" class="collapsed mn2">
+                							<a href="">VTV1</a>
+                						</li>
+                						<li data-toggle="collapse" data-target="#service" class="collapsed mn2">
+                							<a href="">VTV1</a>
+                						</li>
+                					</ul>
+                				</li>
+
+                			</ul>
+                		</div>
+                	</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(".close_ll").click(function () {
+                $(".popup_ll").remove();
+            });
+        </script>
+        <script type="text/javascript">
+        	$(".nav-side-menuu ul li").click(function(){
+        		$( this ).toggleClass(".quay:before");
+        	});
+        </script>
+	
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main-thu.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/stellarnav.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/main_t.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</body>
+
+</html>
