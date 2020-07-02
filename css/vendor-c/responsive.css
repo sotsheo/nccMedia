@@ -247,6 +247,9 @@
    i.fa.fa-search.mb,.bt-close{
     display: block;
    }
+   .mov.mov-dky.fix-mobile a {
+    padding: 8px 60px ;
+    }
    
 }
 

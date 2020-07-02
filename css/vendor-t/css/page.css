@@ -625,8 +625,9 @@
 	transition: all .5s;
 }
 .mov a:hover{
-	background: #00d1e1 !important;
-	color: #fff !important;
+	background: #fff !important;
+	color: #19415B !important;
+	
 }
 /**/
 
