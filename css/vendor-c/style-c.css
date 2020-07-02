@@ -2423,7 +2423,6 @@ i.fa.fa-times.close_ll.close_p.close-chon{
 
 .popup_t .content.w-400{
     width: 400px;
-    bottom: 20%;
 }
 .slide-vung img{
     width: 85px;
@@ -2453,6 +2452,14 @@ i.fa.fa-times.close_ll.close_p.close-chon{
     height: 200px;
     border-radius: 50%;
     top: 50%;
+}
+.bg-yeu-cau.top-50{
+    margin-top: 0px;
+}
+.sub-menuu.collapse.in{
+   max-height: 200px;
+   display: block;
+   overflow-y: scroll; 
 }
 /* ///////////////////////csss-thanh scoll /////////////
 }
