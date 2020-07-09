@@ -1486,6 +1486,7 @@ i.star-ero {
     width: 100%;
     border: 1px solid #cccccc;
     outline: none;
+    border-radius: 3px;
 }
 .btn-box {
     text-align: right;

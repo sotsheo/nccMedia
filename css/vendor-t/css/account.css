@@ -91,11 +91,15 @@
 	transition: all .5s;
 
 }
-.page_account .menu_ac_main li a.active,
 .page_account .menu_ac_main li:hover a{
 	border-bottom: 3px solid #EFA625;
 	color: #19415B;
 
+}
+.page_account .menu_ac_main li a.active{
+	border-bottom: 3px solid #EFA625;
+	color: #19415B !important;
+	font-weight: bold;
 }
 .page_account .menu_ac_main li a.active:after,
 .page_account .menu_ac_main li:hover a:after{

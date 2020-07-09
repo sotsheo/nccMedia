@@ -85,7 +85,7 @@
 	transition: all .5s;
 }
 .zom_img:hover img{
-	transform: rotate(5deg) scale(1.1); 
+	transform:scale(1.1); 
 }
 .item_news .content_text h3{
 	margin: 0px;
