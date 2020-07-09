@@ -250,6 +250,12 @@
    .mov.mov-dky.fix-mobile a {
     padding: 8px 60px ;
     }
+    .back-home a {
+        padding: 5px 35px  !important;
+    }
+    .title-404 h2 {
+        font-size: 50px  !important;
+    }
    
 }
 

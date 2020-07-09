@@ -2462,6 +2462,33 @@ i.fa.fa-times.close_ll.close_p.close-chon{
    display: block;
    overflow-y: scroll; 
 }
+/*css-404*/
+.img-404 img{
+    margin: 0 auto;
+    display: block;
+}
+.title-404 h2{
+    font-size: 116px;
+    color: #EFA625;
+    margin-top: 0px;
+}
+.back-home a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 8px 50px;
+    background: #EFA625 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+}
+.back-home a:hover{
+
+    background-color: #19415B;
+
+
+}
+.back-home {
+    padding: 30px 0px;
+}
 /* ///////////////////////csss-thanh scoll /////////////
 }
  */
