@@ -65,6 +65,16 @@
     .nav{
     background-color: rgb(18, 47, 66)!important;
     }
+    .group_input_f.group_f.group-c{
+        width: 100% !important;
+    }
+    .title-lh h2{
+        font-size: 20px !important;
+        top: 30% !important;
+    }
+    .title-lh h2:after {
+    left: 25% !important;
+    }
 }
 
 @media (max-width: 700px) {
@@ -255,6 +265,9 @@
     }
     .title-404 h2 {
         font-size: 50px  !important;
+    }
+    .title-lh h2:after {
+    width: 50% !important;
     }
    
 }
